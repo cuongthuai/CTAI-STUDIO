@@ -1,0 +1,7 @@
+{
+  "name": "CTAI STUDIO",
+  "description": "Một ứng dụng để biến các bản phác thảo vẽ tay hoặc render 3D thành hình ảnh siêu thực bằng AI. Người dùng có thể tải lên ảnh, điều chỉnh độ sáng tạo và cung cấp các gợi ý (prompt) cụ thể để định hướng quá trình tạo ảnh.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ctai-studio",
+  "version": "1.0.0",
+  "description": "An AI-powered image generation and editing tool using Google Gemini.",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "react",
+    "electron",
+    "gemini",
+    "ai"
+  ],
+  "author": "CTAI",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.ctai.studio",
+    "productName": "CTAI STUDIO",
+    "files": [
+      "**/*",
+      "!node_modules"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
